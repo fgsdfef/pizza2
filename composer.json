@@ -1,0 +1,24 @@
+{
+    "name": "your-name/pizza-store-app",
+    "description": "Pizza Store application",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your.email@example.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "your-name/pizza-store-lib": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/your-username/pizza-store-lib.git"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
